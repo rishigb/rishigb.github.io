@@ -8,11 +8,10 @@ title: To new beginings
 </div>
 
 
-##You probably shouldn't have done that.
+## You probably shouldn't have done that.
 > Oh so you have the audacity to ask me why?
 
 FUCK you man. I have been there for you all this while and this is how you return the favor?
 By not helping me when I needed you the most?
 FUCK YOU.
 
-##
