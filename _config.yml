@@ -1,7 +1,22 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: false
 
-auto: true # automatically update your jekyll
-server: true # runs a local server
-paginate: 10 # pagination basted on number of posts
-exclude: ["Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss'] # files to exclude
+# Setup
+title:               Curious explorations
+tagline:             'There is a story there, I think.'
+description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:                 
+baseurl:             ''
+paginate:            5
 
+# About/contact
+author:
+  name:              Rishi Gaurav Bhatnagar
+  url:               https://twitter.com/mdo
+  email:             rishibhatnagar1@gmail.com
+
+# Custom vars
+version:             1.0.0
