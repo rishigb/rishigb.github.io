@@ -1,15 +1,15 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink: pretty           
-relative_permalinks: true
+permalink: pretty         
+relative_permalinks: false
 
 # Setup
 title:               Curious explorations
 tagline:             'There is a story there, I think.'
 description:         'This is probably a bad idea.'
 url:                 
-baseurl:             ''
+baseurl:             'http://rishigb.github.io/'
 paginate:            5
 
 # About/contact
