@@ -9,7 +9,7 @@ title:               Curious explorations
 tagline:             'There is a story there, I think.'
 description:         'This is probably a bad idea.'
 url:                 
-baseurl:             'http://rishigb.github.io/'
+baseurl:             'http://rishigb.github.io'
 paginate:            5
 
 # About/contact
