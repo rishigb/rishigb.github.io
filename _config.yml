@@ -1,13 +1,13 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+permalink:           www.rishigb.me/blog/
 relative_permalinks: false
 
 # Setup
 title:               Curious explorations
 tagline:             'There is a story there, I think.'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:         'This is probably a bad idea.'
 url:                 
 baseurl:             ''
 paginate:            5
@@ -15,7 +15,7 @@ paginate:            5
 # About/contact
 author:
   name:              Rishi Gaurav Bhatnagar
-  url:               https://twitter.com/mdo
+  url:               https://twitter.com/rishigb 
   email:             rishibhatnagar1@gmail.com
 
 # Custom vars
