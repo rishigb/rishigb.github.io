@@ -1,4 +1,6 @@
 #!/bin/bash
+# Exit if any subcommand fails.
+set -e
 
 echo "running tag generator"
 cd /Users/irgb/Codebase/rishigb.github.io/
@@ -10,3 +12,5 @@ git add -A
 git commit -m"made changes"
 git push -u origin master
 echo "all set, check blog""
+
+exit 0
