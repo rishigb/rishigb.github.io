@@ -13,7 +13,7 @@ title: Home
 <span class="post-date">{{ post.date | date_to_string }}</span>
 
 {{ post.content | strip_html | truncatewords:75}}<br>
-            <a href="{{ site.baseurl }}{{ page.url }}">Read more...</a><br><br>
+            <a href="{{ site.baseurl }}/{{ page.url }}">Read more...</a><br><br>
 
   </div>
   {% endfor %}
