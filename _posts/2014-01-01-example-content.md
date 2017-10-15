@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Example content
+description: An ode to an evening of songs.
+tags: people places evenings
 ---
 
 
