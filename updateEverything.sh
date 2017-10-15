@@ -13,4 +13,5 @@ git commit -m"made changes"
 git push -u origin master
 echo "all set, check blog""
 
+sleep 40 
 exit 0

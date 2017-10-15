@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: cunt"
-tag: cunt
+title: "Tag: series"
+tag: series
 robots: noindex
 ---
