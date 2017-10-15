@@ -1,6 +1,6 @@
 <div id="share-bar">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <h4>Share this:</h4>
+    <!-- <h4>Share this:</h4> -->
 
 
     <div class="share-buttons">
@@ -22,7 +22,7 @@
             <i class="fa fa-linkedin share-button"> </i>
         </a>
 
-        <a  href="mailto:?subject={{ page.title }}&amp;body=Check out this site "
+        <a  href="mailto:?subject={{ page.title }}&amp;body=Check out this site {{ site.baseurl }}{{ page.url }} "
             title="Share via Email" >
             <i class="fa fa-envelope share-button"> </i>
         </a>
