@@ -8,13 +8,15 @@ Title: Home
   <div class="post">
     <h1 class="post-title">
       <a href="{{ post.url }}">
-        {{ post.title }}
+        {{ post.title }} 
       </a>
+
     </h1>
+    {% include share-bar.html %}
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content | strip_html | truncatewords:75}}<br>
+    {{ post.content | strip_html | truncatewords:30}}<br>
     <a href="{{ site.baseurl }}{{ post.url }}">Read more...</a><br><br>
 
   </div>
