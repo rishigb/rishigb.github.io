@@ -1,12 +1,12 @@
 ---
 layout: tagpage
-title: "Tag: Travel"
-tag: Travel
+title: "Tag: travel"
+tag: travel
 robots: noindex
 ---
 ---
 layout: tagpage
-title: "Tag: travel"
-tag: travel
+title: "Tag: Travel"
+tag: Travel
 robots: noindex
 ---
