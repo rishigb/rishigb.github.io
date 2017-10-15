@@ -2,7 +2,7 @@
 layout: post
 title: Example content
 description: blablabla
-tags: Travel philosophy example 
+tags: travel philosophy example 
 ---
 
 
