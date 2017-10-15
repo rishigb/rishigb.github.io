@@ -1,6 +1,8 @@
 ---
 layout: post
 title: What's Jekyll?
+description: blablabla
+tags: fuck
 ---
 
 BRO WHAT THE FUCK

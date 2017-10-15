@@ -1,6 +1,8 @@
 ---
 layout: post
 title: How I get lost in street art - the begining.
+description: blablabla
+tags: jekyll blog github-page
 
 TLDR: Stories behind the murals I capture.
 comments: true
