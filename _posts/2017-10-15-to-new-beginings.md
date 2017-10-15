@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How I get lost in street art - the begining.
-tags: art, travel, photography, philosophy
+
 TLDR: Stories behind the murals I capture.
 comments: true
 ---
