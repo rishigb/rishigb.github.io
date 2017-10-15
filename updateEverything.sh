@@ -1,6 +1,6 @@
 #!/bin/bash
 # Exit if any subcommand fails.
-set -e
+#set -e
 
 echo "running tag generator"
 cd /Users/irgb/Codebase/rishigb.github.io/
