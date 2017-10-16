@@ -2,6 +2,7 @@
 layout: post
 title: What's Jekyl anyway?
 description: blablabla
+categories: ['technology'] 
 tags: travel philosophy history
 ---
 

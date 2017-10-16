@@ -13,7 +13,21 @@ Title: Home
      </h1>
     
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-date">{{ post.date | date_to_string }} 
+
+
+{% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+ (<a href="{{site.baseurl}}/categories/#{{category|slugize}}"> {{category}}</a>)
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+
+
+    </span>
 
     {{ post.content | strip_html | truncatewords:30}}<br>
     <a href="{{ site.baseurl }}{{ post.url }}">Read more...</a><br><br>

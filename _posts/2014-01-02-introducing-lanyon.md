@@ -2,6 +2,7 @@
 layout: post
 title: Introducing Lanyon
 description: blablabla
+categories: ['personal']
 tags: meme dank solitude
 ---
 

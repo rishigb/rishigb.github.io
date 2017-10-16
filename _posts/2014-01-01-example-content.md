@@ -2,6 +2,7 @@
 layout: post
 title: Example content
 description: An ode to an evening of songs.
+categories: ['education']
 tags: people places evenings
 ---
 
