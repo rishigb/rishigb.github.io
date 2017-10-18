@@ -5,5 +5,5 @@ layout: null
 sitemap: false
 ---
 User-agent: *
-Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: http://blog.rishigb.me/sitemap.xml
 #Disallow: /search/
