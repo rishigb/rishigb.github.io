@@ -10,7 +10,7 @@
 
   <title>
     
-      Introducing Lanyon &middot; Curious & Exploring
+      How to make Amazon Alexa work on Rasberry Pi &middot; Curious & Exploring
     
   </title>
 
@@ -195,19 +195,24 @@
 
       <div class="container content">
         <div class="post">
-  <h1 class="post-title">Introducing Lanyon</h1>
-  <span class="post-date">02 Jan 2014
+  <h1 class="post-title">How to make Amazon Alexa work on Rasberry Pi</h1>
+  <span class="post-date">16 Oct 2017
      
+        (Last updated: <time class="updated" datetime="18 Oct 2017">October 18, 2017</time>)
+      
     
     
     [
-    <a href="/tag/meme"><code class="highligher-rouge"><nobr>meme</nobr></code>&nbsp;</a>]
+    <a href="/tag/voice"><code class="highligher-rouge"><nobr>voice</nobr></code>&nbsp;</a>]
     
     [
-    <a href="/tag/dank"><code class="highligher-rouge"><nobr>dank</nobr></code>&nbsp;</a>]
+    <a href="/tag/raspberrypi"><code class="highligher-rouge"><nobr>raspberrypi</nobr></code>&nbsp;</a>]
     
     [
-    <a href="/tag/solitude"><code class="highligher-rouge"><nobr>solitude</nobr></code>&nbsp;</a>]
+    <a href="/tag/alexa"><code class="highligher-rouge"><nobr>alexa</nobr></code>&nbsp;</a>]
+    
+    [
+    <a href="/tag/experiments"><code class="highligher-rouge"><nobr>experiments</nobr></code>&nbsp;</a>]
     
 
     
@@ -223,25 +228,25 @@
 
 
     <div class="share-buttons">
-        <a  href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/personal/2014/01/02/introducing-lanyon/"
+        <a  href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/technology/2017/10/16/how-to-make-alexa-work-on-raspberrypi/"
             onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
             title="Share on Facebook" >
             <i class="fa fa-facebook-official share-button"> </i>
         </a>
 
-        <a  href="https://twitter.com/intent/tweet?text=Introducing Lanyon&url=http://localhost:4000/personal/2014/01/02/introducing-lanyon/&via=rishigb&related=rishigb"
+        <a  href="https://twitter.com/intent/tweet?text=How to make Amazon Alexa work on Rasberry Pi&url=http://localhost:4000/technology/2017/10/16/how-to-make-alexa-work-on-raspberrypi/&via=rishigb&related=rishigb"
             onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
             title="Share on Twitter" >
             <i class="fa fa-twitter share-button"> </i>
         </a>
         
-        <a  href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/personal/2014/01/02/introducing-lanyon/&title=Introducing Lanyon&summary=blablabla&source=Curious & Exploring"
+        <a  href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/technology/2017/10/16/how-to-make-alexa-work-on-raspberrypi/&title=How to make Amazon Alexa work on Rasberry Pi&summary=&source=Curious & Exploring"
             onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
             title="Share on LinkedIn" >
             <i class="fa fa-linkedin share-button"> </i>
         </a>
 
-        <a  href="mailto:?subject=Introducing Lanyon&amp;body=Check out this site http://localhost:4000/personal/2014/01/02/introducing-lanyon/ "
+        <a  href="mailto:?subject=How to make Amazon Alexa work on Rasberry Pi&amp;body=Check out this site http://localhost:4000/technology/2017/10/16/how-to-make-alexa-work-on-raspberrypi/ "
             title="Share via Email" >
             <i class="fa fa-envelope share-button"> </i>
         </a>
@@ -343,43 +348,18 @@
 }
 </style>
 
-  <p>Lanyon is an unassuming <a href="http://jekyllrb.com">Jekyll</a> theme that places content first by tucking away navigation in a hidden drawer. It’s based on <a href="http://getpoole.com">Poole</a>, the Jekyll butler.</p>
+  <h2 id="alexa-on-raspberry-pi---alexa-pi-working-method">Alexa on Raspberry Pi - Alexa Pi (Working method)</h2>
 
-<h3 id="built-on-poole">Built on Poole</h3>
+<p>This right here is a documentation of how I was able to solve for all the errors while installating <a href="https://thewirecutter.com/reviews/what-is-alexa-what-is-the-amazon-echo-and-should-you-get-one/">Alexa</a> on <a href="https://www.amazon.com/CanaKit-Raspberry-Micro-Supply-Listed/dp/B01C6FFNY4">Raspberry Pi 3</a>. This in no way is exhaustive, but it contains a list of everything you will need to know to get Alexa successfully up and running on your Raspberry Pi 3.</p>
 
-<p>Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by <a href="https://twitter.com/mdo">@mdo</a>. Poole, and every theme built on it (like Lanyon here) includes the following:</p>
+<p>Please check if you have all the following things. If they are missing, you might receive errors.</p>
 
-<ul>
-  <li>Complete Jekyll setup included (layouts, config, <a href="/404">404</a>, <a href="/atom.xml">RSS feed</a>, posts, and <a href="/about">example page</a>)</li>
-  <li>Mobile friendly design and development</li>
-  <li>Easily scalable text and component sizing with <code class="highlighter-rouge">rem</code> units in the CSS</li>
-  <li>Support for a wide gamut of HTML elements</li>
-  <li>Related posts (time-based, because Jekyll) below each post</li>
-  <li>Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)</li>
-</ul>
+<p>###Hardware Things</p>
 
-<h3 id="lanyon-features">Lanyon features</h3>
-
-<p>In addition to the features of Poole, Lanyon adds the following:</p>
-
-<ul>
-  <li>Toggleable sliding sidebar (built with only CSS) via <strong>☰</strong> link in top corner</li>
-  <li>Sidebar includes support for textual modules and a dynamically generated navigation with active link support</li>
-  <li>Two orientations for content and sidebar, default (left sidebar) and <a href="https://github.com/poole/lanyon#reverse-layout">reverse</a> (right sidebar), available via <code class="highlighter-rouge">&lt;body&gt;</code> classes</li>
-  <li><a href="https://github.com/poole/lanyon#themes">Eight optional color schemes</a>, available via <code class="highlighter-rouge">&lt;body&gt;</code> classes</li>
-</ul>
-
-<p><a href="https://github.com/poole/lanyon#readme">Head to the readme</a> to learn more.</p>
-
-<h3 id="browser-support">Browser support</h3>
-
-<p>Lanyon is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.</p>
-
-<h3 id="download">Download</h3>
-
-<p>Lanyon is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/lanyon">GitHub repository</a> for downloads, bug reports, and features requests.</p>
-
-<p>Thanks!</p>
+<ol>
+  <li><strong>USB Mic</strong></li>
+  <li></li>
+</ol>
 
   <div id="disqus_thread"></div>
 <script>
@@ -389,8 +369,8 @@
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
 var disqus_config = function () {
-this.page.url = "http://blog.rishigb.me//personal/2014/01/02/introducing-lanyon/" ;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = "/personal/2014/01/02/introducing-lanyon"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+this.page.url = "http://blog.rishigb.me//technology/2017/10/16/how-to-make-alexa-work-on-raspberrypi/" ;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "/technology/2017/10/16/how-to-make-alexa-work-on-raspberrypi"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 
 (function() { // DON'T EDIT BELOW THIS LINE
@@ -412,18 +392,18 @@ s.setAttribute('data-timestamp', +new Date());
     
       <li>
         <h3>
-          <a href="/technology/2017/10/16/how-to-make-alexa-work-on-raspberrypi/">
-            How to make Amazon Alexa work on Rasberry Pi
-            <small>16 Oct 2017</small>
+          <a href="/personal/2017/09/10/test/">
+            Another one
+            <small>10 Sep 2017</small>
           </a>
         </h3>
       </li>
     
       <li>
         <h3>
-          <a href="/personal/2017/09/10/test/">
-            Another one
-            <small>10 Sep 2017</small>
+          <a href="/personal/2014/01/02/introducing-lanyon/">
+            Introducing Lanyon
+            <small>02 Jan 2014</small>
           </a>
         </h3>
       </li>

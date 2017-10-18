@@ -4,13 +4,33 @@
  <title>Curious & Exploring</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-10-16T08:35:53+05:30</updated>
+ <updated>2017-10-18T12:02:06+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Rishi Gaurav Bhatnagar</name>
    <email>rishibhatnagar1@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>How to make Amazon Alexa work on Rasberry Pi</title>
+   <link href="http://localhost:4000/technology/2017/10/16/how-to-make-alexa-work-on-raspberrypi/"/>
+   <updated>2017-10-16T00:00:00+05:30</updated>
+   <id>http://localhost:4000/technology/2017/10/16/how-to-make-alexa-work-on-raspberrypi</id>
+   <content type="html">&lt;h2 id=&quot;alexa-on-raspberry-pi---alexa-pi-working-method&quot;&gt;Alexa on Raspberry Pi - Alexa Pi (Working method)&lt;/h2&gt;
+
+&lt;p&gt;This right here is a documentation of how I was able to solve for all the errors while installating &lt;a href=&quot;https://thewirecutter.com/reviews/what-is-alexa-what-is-the-amazon-echo-and-should-you-get-one/&quot;&gt;Alexa&lt;/a&gt; on &lt;a href=&quot;https://www.amazon.com/CanaKit-Raspberry-Micro-Supply-Listed/dp/B01C6FFNY4&quot;&gt;Raspberry Pi 3&lt;/a&gt;. This in no way is exhaustive, but it contains a list of everything you will need to know to get Alexa successfully up and running on your Raspberry Pi 3.&lt;/p&gt;
+
+&lt;p&gt;Please check if you have all the following things. If they are missing, you might receive errors.&lt;/p&gt;
+
+&lt;p&gt;###Hardware Things&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;USB Mic&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Another one</title>
