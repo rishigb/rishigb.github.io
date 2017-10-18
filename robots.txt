@@ -1,6 +1,9 @@
 # www.robotstxt.org/
 # www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
 ---
+layout: null
+sitemap: false
 ---
 User-agent: *
 Sitemap: {{ site.url }}/sitemap.xml
+#Disallow: /search/
