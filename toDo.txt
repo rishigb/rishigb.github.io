@@ -1,7 +1,0 @@
-1. tagGenerator - Files should not be overwritten.
-2. blog template generator
-3. Automate everything here
-4. Change favicon and maybe color scheme.
-5. Add Google analytics.
-6. Ad sense - find out how to do that.
-7. Donate link or patreon link.
