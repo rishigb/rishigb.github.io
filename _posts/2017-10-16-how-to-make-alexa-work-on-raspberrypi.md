@@ -6,7 +6,7 @@ tags: voice raspberrypi alexa experiments
 sitemap:
   lastmod: 2017-10-18
   priority: 0.7
-  changefreq: 'none'
+  changefreq: 'monthly'
   exclude: 'no'
 ---
 ## Alexa on Raspberry Pi - Alexa Pi (Working method)
